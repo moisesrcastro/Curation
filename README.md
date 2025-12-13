@@ -9,7 +9,7 @@ The first implemented system is **Delay Interaction**, which focuses on identify
 ---
 
 ## Pipeline Architecture
-
+```
 curation/
 ├── ingestion/              # Download and handle audio files
 ├── preprocessing/          # Text and audio preprocessing modules
@@ -17,7 +17,7 @@ curation/
 │   └── delay_interaction.py
 ├── config/                 # Project configuration and YAML loader
 └── pipeline.py             # Orchestrator script that runs all modules
-
+```
 ---
 
 ## Key Concepts
