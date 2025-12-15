@@ -1,5 +1,5 @@
 # Ambiente virtual
-venv/
+.venv/
 env/
 ENV/
 .venv/
@@ -42,4 +42,6 @@ Thumbs.db
 
 # Arquivos de configuração local (se necessário)
 # config/local_config.yaml
+
+
 

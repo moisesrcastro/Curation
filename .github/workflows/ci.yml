@@ -52,3 +52,5 @@ jobs:
         python -c "from config.project_config import ProjectConfig; print('✅ ProjectConfig imported successfully')"
       continue-on-error: true
 
+
+

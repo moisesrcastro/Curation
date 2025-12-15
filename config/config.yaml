@@ -1,0 +1,26 @@
+source:
+  type: "csv"   # csv | sql
+
+  csv:
+    path: "data/dados.csv"
+
+  sql:
+    query: |
+      SELECT *
+      FROM tabela_com_dados
+
+audio:
+  output_dir: "data/audio/"
+  url_regex:
+    - "(https:\\/\\/your-bucket[^\\s,]+\\.wav)"
+
+output:
+  output_dir: "data/output/"
+
+thresholds:
+  interaction_start_delay_sec: 5
+  user_silence_sec: 5
+  audio_generation_delay_sec: 5
+
+env:
+  openai_api_key_env: "OPENAI_API_KEY"
